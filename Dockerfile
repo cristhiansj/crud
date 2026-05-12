@@ -1,5 +1,5 @@
 # Usar la imagen oficial de PHP con servidor Apache
-FROM php:8.2-apache
+FROM php:8.4-apache
 
 # Instalar dependencias del sistema para MongoDB y Composer
 RUN apt-get update && apt-get install -y libssl-dev git unzip
